@@ -22,6 +22,15 @@ a:hover {
 a:active {
   color: #3a2eed;
 }
+a.impressum {
+  color: #000000;
+}
+a.impressum:active {
+  color: #3a2eed;
+}
+a.impressum:hover {
+  color: #ed352e;
+}
 footer {
   margin-bottom: -1em;
   margin-left: -1em;
@@ -38,25 +47,25 @@ footer {
 }
 .startbanner {
   width: 76%;
-  height:auto;
+  height: auto;
   align-items: center;
 }
 .scrollbutton {
-border-radius:100%;
-      padding: 10px; 
-      transform: translate(44vw, -28vw); 
-      color:#eee;  
-      opacity: 80%; 
-      width:10em; 
-      height: 10em; 
-      background-color: #ed352e;
-      box-shadow: 2px 2px 3px #ddd;    
+  border-radius: 100%;
+  padding: 10px;
+  transform: translate(44vw, -28vw);
+  color: #eee;
+  opacity: 80%;
+  width: 10em;
+  height: 10em;
+  background-color: #ed352e;
+  box-shadow: 2px 2px 3px #ddd;
 }
 .scrollbutton:hover {
-border: 1mm ridge rgb(252, 177, 177)
+  border: 1mm ridge rgb(252, 177, 177);
 }
 .scrollbutton:active {
-  border: 1.2mm ridge #ff9a9a
+  border: 1.2mm ridge #ff9a9a;
 }
 .corporateID {
   z-index: 2;
@@ -103,8 +112,13 @@ border: 1mm ridge rgb(252, 177, 177)
   height: 100px;
   padding-right: 30px;
 }
+
+#map {
+  height: 180px;
+  width: 100%;
+}
 .oc-scroll {
-overflow-y: scroll;
+  overflow-y: scroll;
 }
 .brand-navbar {
   margin-bottom: -1.2em;
@@ -143,9 +157,9 @@ overflow-y: scroll;
   flex-direction: row-reverse;
 }
 .isopen2 {
-   font-size: 1rem;
- margin-top: 0.24em;
-  margin-bottom: -0.24em; 
+  font-size: 1rem;
+  margin-top: 0.24em;
+  margin-bottom: -0.24em;
 }
 .index-img {
   width: 100%;
@@ -155,6 +169,11 @@ overflow-y: scroll;
 .bg-banner {
   background-color: rgba(255, 0, 0, 0.4);
   align-items: center;
+}
+.index-box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .month ul li {
   color: white;
@@ -216,7 +235,13 @@ overflow-y: scroll;
   text-align: center;
 }
 .spacer {
-  margin-bottom: 8em;
+  margin-bottom: 6em;
+}
+@media only screen and (max-width: 1600px) {
+  .coll1600 {
+    visibility: collapse;
+    display: none;
+  }
 }
 /* Desktops and Laptop */
 @media only screen and (min-width: 1345px) {
@@ -240,14 +265,18 @@ overflow-y: scroll;
     visibility: collapse;
     display: none;
   }
+  .coll1344 {
+    visibility: collapse;
+    display: none;
+  }
 
-.flagimg {
-  translate: 8px 44px;
-  width: 14em;
-  height: auto;
-  float: left;
-  z-index: 2;
-}
+  .flagimg {
+    translate: 8px 44px;
+    width: 14em;
+    height: auto;
+    float: left;
+    z-index: 2;
+  }
 }
 /* for  tablets */
 @media screen and (max-width: 1200px) {
@@ -265,9 +294,9 @@ overflow-y: scroll;
   .isopen1 {
     margin-right: 18em;
   }
-   body {
+  body {
     padding-top: 4em;
-  } 
+  }
   .distance {
     margin-right: 3em;
     margin-left: 3em;
@@ -294,7 +323,7 @@ overflow-y: scroll;
 @media screen and (max-width: 960px) {
   .startbanner {
     width: 68%;
-    height:auto;
+    height: auto;
     align-self: center;
   }
   .corporateID {
@@ -304,9 +333,9 @@ overflow-y: scroll;
     visibility: collapse;
     display: none;
   }
-   body {
+  body {
     padding-top: 4em;
-  } 
+  }
   .slider {
     transform: translate(25.6vw, -33.6vw);
   }
@@ -320,7 +349,7 @@ overflow-y: scroll;
 @media screen and (max-width: 720px) {
   .startbanner {
     width: 72%;
-    height:auto;
+    height: auto;
     align-self: center;
   }
   .weekdays li,
@@ -353,8 +382,8 @@ overflow-y: scroll;
 
 @media screen and (max-width: 420px) {
   .coll420 {
-    visibility:collapse;
-    display:none;
+    visibility: collapse;
+    display: none;
   }
   .calendar-heading {
     font-size: 22px;
@@ -384,9 +413,9 @@ overflow-y: scroll;
     transform: translate(0vw, 0vw);
   }
 }
-@media screen  and (max-width: 376px) {
+@media screen and (max-width: 376px) {
   .coll376 {
-    display:none;
+    display: none;
     visibility: collapse;
   }
   .icon {

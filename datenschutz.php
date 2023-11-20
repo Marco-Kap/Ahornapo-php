@@ -8,7 +8,7 @@
   <h1>Datenschutzerklärung</h1>
   <p>Verantwortliche im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
   <p>
-    Carmen Temme</br>
+    Caren Temme</br>
     Bahnhofstra&#223e 7</br>
     34497 Korbach</br>
     Deutschland</br>
@@ -57,7 +57,7 @@
   <p>Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
   <h3>Empfänger eines Widerspruchs</h3>
   <p>
-  Carmen Temme</br>
+  Caren Temme</br>
   Bahnhofstra&#223e 7</br>
   34497 Korbach</br>
   Deutschland</br>
@@ -69,18 +69,18 @@
   <h2>Fragen an die Datenschutzbeauftragte</h2>
   <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:</p>
   <p>
-    Carmen Temme</br>
+    Caren Temme</br>
     Bahnhofstra&#223e 7</br>
     34497 Korbach</br>
     Deutschland</br>
-    <a tel="05631404064">Tel.: 05631/ 4040 64</a></br>
+    <a tel="05631404064">Tel.: 05631/ 4040 60</a></br>
     E-Mail: <a href="mailto:datenschutz@ahornapo.de?subject=Frage zum Datenschutz">datenschutz@ahornapo.de</a>
     </p>
   <br></p>
   <p style="font-size: 12.8px"><em>Die Datenschutzerklärung wurde mithilfe der<a href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank" rel="noopener"> activeMind AG</a>  erstellt</em></p>
     </div>
     <script src="/js/bootstrap.js"></script>
-    <script src="/js/calendar.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 <?php include "footer.php" ?>

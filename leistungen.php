@@ -25,14 +25,15 @@
                     <div class="card-body">
                         <p class="card-text">
                         <ul style="list-style: disc;">
-                               <li> unser Sortiment mit mehr als 10.000 Artikel, nicht vorrätige Artikel können innerhalb kürzester Zeit beschafft werden. 
+                               <li> unser Sortiment mit mehr als 10.000 Artikeln, nicht vorrätige Artikel können innerhalb kürzester Zeit beschafft werden. 
                                      Auch bei Lieferengpässen finden wir eine Alternantive für Sie!</li>
                                 <li>chemische, pflanzliche und homöopatische Arzneimittel</li>
                                 <li>Tierarzneimittel</li>
                                 <li>Verbandstoffe, Pflaster und Hilfsmittel</li>
-                                <li>Verleih von Babywaagen und Milchpumpen</li>
-                                <li>diverse Blutdruck- und Blutzuckermeßgeräte</li>
-                        </ul>
+                                <li>Blutdruck- und Blutzuckermeßgeräte</li>
+                                <br aria-hidden>
+                                <br class="mb-1" aria-hidden>
+                            </ul>
                         </p>
                     </div>
                 </div>
@@ -49,40 +50,8 @@
                             <li>Kostenloser Botendienst und Versand</li>
                             <li>Belieferung von Heimen und Pflegediensten</li>
                             <li>Klinikversorgung mit mehreren hundert Akutbetten</li>
-                           <br aria-hidden>
-                           <br class="mb-1" aria-hidden>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="bg-light card-header">Zahlungsarten</div><img class="card-img-top p-2 rounded"
-                        src="/img/billing-300x200.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <ul style="list-style: disc;">
-                            <li>Barzahlung</li>
-                            <li>EC-Karte</li>
-                            <li>Rechnungskauf</li>
-                           <br aria-hidden>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="bg-light card-header">Sprachen</div><img class="card-img-top p-2 rounded"
-                        src="/img/language-300x200.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <ul style="list-style: disc;">
-                            <li>Deutsch</li>
-                            <li>Englisch</li>
-                            <li>Französisch</li>
-                            <li>Russisch</li>
+                            <li>Verleih von Babywaagen und Milchpumpen</li>
+                            <li>Kostenlose Blutdruckmessung</li>
                         </ul>
                         </p>
                     </div>
@@ -127,10 +96,42 @@
                    </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card">
+                    <div class="bg-light card-header">Zahlungsarten</div><img class="card-img-top p-2 rounded"
+                        src="/img/billing-300x200.jpeg">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <ul style="list-style: disc;">
+                            <li>Barzahlung</li>
+                            <li>EC-Karte</li>
+                            <li>Rechnungskauf mit Lastschrifteinzug</li>
+                           <br aria-hidden>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="bg-light card-header">Sprachen</div><img class="card-img-top p-2 rounded"
+                        src="/img/language-300x200.jpeg">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <ul style="list-style: disc;">
+                            <li>Deutsch</li>
+                            <li>Englisch</li>
+                            <li>Französisch</li>
+                            <li>Russisch</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 <script src="/js/bootstrap.js"></script>
-<script src="/js/calendar.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 

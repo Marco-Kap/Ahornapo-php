@@ -16,16 +16,16 @@
     </div>
         <div aria-hidden="true" class="spacer"></div>
     <div class="card text-center container p-4">
-        <p>Sie können bereits jetzt bei uns ein E-Rezept mit Ihrer elektronischen Gesundheitskarte oder der E-Rezept App 
+        <p>Sie können bereits jetzt bei uns ein E-Rezept mit Ihrer elektronischen Gesundheitskarte, einem Papierausdruck mit QR-Code oder der E-Rezept App 
             einlösen.</p>
         <p>Kommen Sie mit Ihrer Gesundheitskarte oder einem QR Code bei uns vorbei.</p>
-        <p>Ab dem 01.01.2024 ist das E-Rezept verpflichtend, als bei uns registrierter Kunde haben Sie allerdings eine
+        <p>Ab dem 01.01.2024 sollen Arztpraxen bevorzugt E-Rezepte ausstellen. Als bei uns registrierter Kunde haben Sie allerdings eine
             weitere Möglichkeit. Bitten Sie Ihren Arzt uns in Ihrem Namen ein Rezept zu übermitteln. Wir
             bearbeiten Ihr E-Rezept und bereiten Ihre Bestellung für Sie vor.</p>
     </div>
     <div aria-hidden="true" class="spacer"></div>
     <script src="/js/bootstrap.js"></script>
-    <script src="/js/calendar.js"></script>
+    <script src="/js/main.js"></script>
 
     </body>
     <?php include "footer.php" ?>

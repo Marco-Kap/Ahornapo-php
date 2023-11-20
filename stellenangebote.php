@@ -38,20 +38,20 @@
                     <li>Approbation als Apotheker/in
                     </li>
                   </ul>
-                  Bei uns hast du die Möglichkeit alle pharmazeutischen Tätigkeiten kennenzulernen und auszuüben:
+                  Bei uns hast Du die Möglichkeit alle pharmazeutischen Tätigkeiten kennenzulernen und auszuüben:
                   <ul style="margin-bottom: 8px; list-style-type: disc;">
                     <li>
                       Im Bereich der Offizin im Beratungsgespräch mit dem Kunden
                     </li>
                     <li>
                       in unserer Klinikversorgung:<br>
-                      zur Unterstützung von Ärtzten und Pflegepersonal
+                      zur Unterstützung von Ärzten und Pflegepersonal
                     </li>
                     <li>
-                      Bei der Versorgung von Heimen und Pflegediensten und der Verblisterung von Arztneimitteln
+                      Bei der Versorgung von Heimen und Pflegediensten und der Verblisterung von Arzneimitteln
                     </li>
                     <li>
-                      in der Rezeptur und Defektur mit vielfältigen individuellen Präperaten
+                      in der Rezeptur und Defektur mit vielfältigen individuellen Präparaten
                     </li>
                     <li>
                       und in unserem eigenem Herstellungslabor für die Zubereitungen
@@ -77,20 +77,20 @@
                   </ul>
                   Als Apotheker im Praktikum unterstützt du Apotheker bei der Bereitstellung von Arzneimitteln und bei
                   der Beratung von Patienten.
-                                    Bei uns hast du die Möglichkeit alle pharmazeutischen Tätigkeiten kennenzulernen und auszuüben:
+                                    Bei uns hast Du die Möglichkeit alle pharmazeutischen Tätigkeiten kennenzulernen und auszuüben:
                   <ul style="list-style-type: disc;">
                     <li>
                       Im Bereich der Offizin im Beratungsgespräch mit dem Kunden
                     </li>
                     <li>
                       in unserer Klinikversorgung:<br>
-                      zur Unterstützung von Ärtzten und Pflegepersonal
+                      zur Unterstützung von Ärzten und Pflegepersonal
                     </li>
                     <li>
-                      Bei der Versorgung von Heimen und Pflegediensten und der Verblisterung von Arztneimitteln
+                      Bei der Versorgung von Heimen und Pflegediensten und der Verblisterung von Arzneimitteln
                     </li>
                     <li>
-                      in der Rezeptur und Defektur mit vielfältigen individuellen Präperaten
+                      in der Rezeptur und Defektur mit vielfältigen individuellen Präparaten
                     </li>
                     <li>
                       und in unserem eigenem Herstellungslabor für die Zubereitungen
@@ -111,7 +111,7 @@
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Als Pharmazeutisch-technischer Assistent (PTA) arbeitest du unter der Aufsicht eines Apothekers und
+                  Als Pharmazeutisch-technischer Assistent (PTA) arbeitest Du unter der Aufsicht eines Apothekers und
                   bist für die Herstellung von Arzneimitteln und die Beratung von Patienten zu Gesundheitsprodukten
                   zuständig.
                   Du überprüfst Rezepte, gibst Medikamente aus und bereitest sie zu.
@@ -128,26 +128,9 @@
               <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Als PTA im Praktikum unterstützt du PTAs bei der Herstellung von Arzneimitteln und bei der Beratung
+                  Als PTA im Praktikum unterstützt Du PTAs bei der Herstellung von Arzneimitteln und bei der Beratung
                   von Patienten.
                   Du sammelst Erfahrungen im Umgang mit Medikamenten und lernst die Abläufe in der Apotheke kennen.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="headingFour">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                  aria-expanded="false" aria-controls="collapseFour">
-                  Steuerfachwirt/in
-                </button>
-              </h4>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Als Steuerfachwirt bist du für die Beratung von Unternehmen und Privatpersonen in steuerlichen Fragen
-                  zuständig.
-                  Du erstellst Steuererklärungen und Jahresabschlüsse, prüfst Steuerbescheide und berätst Kunden zu
-                  steuerlichen Angelegenheiten.
                 </div>
               </div>
             </div>
@@ -161,8 +144,7 @@
               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Als Steuerfachangestellter unterstützt du Steuerberater und Steuerfachwirte bei der Beratung von
-                  Unternehmen und Privatpersonen in steuerlichen Fragen.
+                  Als Steuerfachangestellter unterstützt Du unsere Apotheke bei der Beratung in steuerlichen Fragen.
                   Du erstellst Steuererklärungen, prüfst Steuerbescheide und unterstützt bei der Buchhaltung.
                 </div>
               </div>
@@ -177,9 +159,9 @@
               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Als Raumpfleger bist du für die Reinigung von Räumen in öffentlichen oder privaten Einrichtungen
+                  Als Raumpfleger bist Du für die Reinigung von Räumen in öffentlichen oder privaten Einrichtungen
                   zuständig.
-                  Du reinigst Böden, Oberflächen und sanitäre Anlagen, entsorgst Abfälle und sorgst für eine hygienische
+                  Du reinigst Böden, Oberflächen, Fenster und sanitäre Anlagen, entsorgst Abfälle und sorgst für eine hygienische
                   Umgebung.
                 </div>
               </div>
@@ -214,7 +196,7 @@
               <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Als Lieferfahrer bist du für die Auslieferung von Waren an Kunden zuständig.
+                  Als Lieferfahrer bist Du für die Auslieferung von Waren an Kunden zuständig.
                   Du planst deine Route, belädst dein Fahrzeug und überprüfst die Lieferpapiere.
                   Du übernimmst auch administrative Aufgaben wie die Abwicklung von Zahlungen.
                 </div>
@@ -273,7 +255,7 @@
     </div>
   </div>
   <script src="/js/bootstrap.js"></script>
-  <script src="/js/calendar.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 
 <?php include "footer.php" ?>
