@@ -33,14 +33,14 @@
             <div class="preview">
     </div>
     <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="checkbox" value="" id="delivery">
+  <label class="form-check-label" for="delivery">
     Ich möchte meine Bestellung liefern lassen
   </label>
 </div>
-<div class="form-check row">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-  <label class="form-check-label align-self-start" for="flexCheckChecked">
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="privacy">
+  <label class=" align-self-start" for="privacy">
     Ich habe die Datenschutzerlärung gelesen
   </label>
 </div>
