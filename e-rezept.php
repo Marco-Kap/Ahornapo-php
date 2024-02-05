@@ -54,7 +54,7 @@
   <input type="text" aria-label="Lieferort" class="form-control" placeholder="Ort" id="place">
 </div>
     <div>
-      <button id="submit-button" class="btn warning mt-2" >Absenden</button>
+      <button id="submit-button" class="btn mt-2" style="background-color:#dd3545">Absenden</button>
     </div>
         </form>
         </div>
