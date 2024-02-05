@@ -25,12 +25,12 @@
             <p>Außerdem haben Sie die Möglichkeit Ihr Rezept zu fotografieren oder zu scannen und direkt bei uns hochladen</p>
 
             <div class="card">
-        <form class="px-4 m-2" style="max-width: 120vw" method="get" name="form" action="submit.php">
+        <form class="px-4 m-2" method="get" name="form" action="submit.php">
             <div class="row">
             <label class="col align-self-center py-2 rounded" style="background-color:#dd3545" for="image_upload">Rezepte hochladen</label>
             <input type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
             </div>
-            <div class="preview">
+            <div class="preview" style="max-width: 120vw">
     </div>
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="delivery">
