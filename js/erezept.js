@@ -1,7 +1,8 @@
 const input = document.querySelector("input");
 const preview = document.querySelector(".preview");
-const submitBtn = document.getElementById("submit-button")
-const delivery = document.getElementById("delivery")
+const submitBtn = document.getElementById("submit-button");
+const delivery = document.getElementById("delivery");
+const privacy = document.getElementById("privacy");
 
 input.style.opacity = 0
 submitBtn.style.opacity = "50%"
