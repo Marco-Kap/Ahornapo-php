@@ -35,13 +35,13 @@
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
   <label class="form-check-label" for="flexCheckDefault">
-    Default checkbox
+    Ich möchte meine Bestellung liefern lassen
   </label>
 </div>
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
   <label class="form-check-label" for="flexCheckChecked">
-    Checked checkbox
+    Ich habe die Datenschutzerlärung gelesen und stimme zu
   </label>
 </div>
     <div>
