@@ -22,7 +22,7 @@
         <p>Ab dem 01.01.2024 sollen Arztpraxen bevorzugt E-Rezepte ausstellen. Als bei uns registrierter Kunde haben Sie allerdings eine
             weitere Möglichkeit. Bitten Sie Ihren Arzt uns in Ihrem Namen ein Rezept zu übermitteln. Wir
             bearbeiten Ihr E-Rezept und bereiten Ihre Bestellung für Sie vor.</p>
-            <p>Außerdem haben Sie die Möglichkeit Ihr Rezept zu fotografieren oder zu scannen und direkt bei uns hochladen</p>
+            <p class="bold">Außerdem haben Sie die Möglichkeit Ihr Rezept zu fotografieren oder zu scannen und direkt bei uns hochladen</p>
 
             <div class="card">
         <form class="px-4 m-2" method="get" name="form" action="submit.php">
@@ -48,6 +48,7 @@
   <input type="text" aria-label="Vorname" class="form-control" placeholder="Vorname" id="first-name">
   <input type="text" aria-label="Nachname" class="form-control" placeholder="Nachname" id="last-name">
 </div>
+<div class="mt-4" aria-hidden></div>
 <div id="adress" class="input-group">
   <input type="text" aria-label="Straße und Hausnummer" class="form-control" placeholder="Straße und Hausnummer" id="street">
   <input type="text" aria-label="Lieferort" class="form-control" placeholder="Ort" id="place">
