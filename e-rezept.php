@@ -30,7 +30,7 @@
             <label class="col align-self-center py-2 rounded" style="background-color:#dd3545" for="image_upload">Rezepte hochladen</label>
             <input type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
             </div>
-            <div class="preview" style="max-width: 120vw">
+            <div class="preview" style="max-width: 20vw">
     </div>
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="delivery">
@@ -43,6 +43,10 @@
   <label class=" align-self-start" for="privacy">
     Ich habe die Datenschutzerlärung gelesen
   </label>
+</div>
+<div class="input-group">
+  <input type="text" aria-label="Vorname" class="form-control">
+  <input type="text" aria-label="Nachname" class="form-control">
 </div>
     <div>
       <button id="submit-button" class="btn" style="background-color:#dd3545">Absenden</button>
