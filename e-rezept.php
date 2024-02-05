@@ -26,8 +26,8 @@
 
             <div class="card">
         <form>
-            <div>
-            <label for="image_upload">Rezepte hochladen</label>
+            <div class="row">
+            <label class="col primary align-self-center" for="image_upload">Rezepte hochladen</label>
             <input type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
             </div>
             <div class="preview">
