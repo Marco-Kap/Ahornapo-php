@@ -45,8 +45,8 @@
   </label>
 </div>
 <div class="input-group">
-  <input type="text" aria-label="Vorname" class="form-control" placeholder="first-name">
-  <input type="text" aria-label="Nachname" class="form-control" placeholder="last-name">
+  <input type="text" aria-label="Vorname" class="form-control" placeholder="Vorname" id="first-name">
+  <input type="text" aria-label="Nachname" class="form-control" placeholder="Nachname" id="last-name">
 </div>
     <div>
       <button id="submit-button" class="btn" style="background-color:#dd3545">Absenden</button>
