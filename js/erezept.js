@@ -3,6 +3,12 @@ const preview = document.querySelector(".preview");
 const submitBtn = document.getElementById("submit-button");
 const delivery = document.getElementById("delivery");
 const privacy = document.getElementById("privacy");
+const name = document.getElementById("name");
+const firstName = document.getElementById("first-name");
+const lastName = document.getElementById("last-name");
+const adress = document.getElementById("adress");
+const street = document.getElementById("street");
+const place = document.getElementById("place");
 
 input.style.opacity = 0
 submitBtn.style.opacity = "50%"
