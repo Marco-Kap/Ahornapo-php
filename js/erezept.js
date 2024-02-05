@@ -10,7 +10,7 @@ const adress = document.getElementById("adress");
 const street = document.getElementById("street");
 const place = document.getElementById("place");
 
-delivery.checked === false ? adress.style.opacity = 0 : adress.style.opacity = "100%"
+delivery.checked === true ? adress.style.opacity = "100%" : adress.style.opacity = 0
 input.style.opacity = 0
 submitBtn.style.opacity = "50%"
 
