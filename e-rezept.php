@@ -22,10 +22,49 @@
         <p>Ab dem 01.01.2024 sollen Arztpraxen bevorzugt E-Rezepte ausstellen. Als bei uns registrierter Kunde haben Sie allerdings eine
             weitere Möglichkeit. Bitten Sie Ihren Arzt uns in Ihrem Namen ein Rezept zu übermitteln. Wir
             bearbeiten Ihr E-Rezept und bereiten Ihre Bestellung für Sie vor.</p>
+            <p>Außerdem haben sie die Möglichkeit ihr Rezept zu fotografieren oder zu scannen und direkt bei uns hochladen</p>
+
+            <div class="card">
+        <form>
+            <div>
+            <label for="image_upload">Rezepte hochladen</label>
+            <input id="upload" type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+            </div>
+            <div class="preview">
+    </div>
+<div>
+    <div>
+<input class="form-check-input" type="checkbox" value="" id="privacy">
+  <label class="form-check-label" for="flexCheckDefault">
+    Ich habe die Datenschutzerklärung gelesen
+  </label>
+</div>
+  <div class="align-self-start justify-self-start">
+  <input class="form-check-input" type="checkbox" value="" id="delivery">
+  <label class="form-check-label" for="flexCheckDefault">
+    Botendienst gewünscht
+  </label>
+</div>
+</div>
+<div id="name">
+    <input id="firstname" placeholder="vorname" class="input"/>    
+    <input id="lastname" placeholder="nachname" class="input"/>
+</div>
+<div id="adress">
+    <input id="street" placeholder="Straße" class="input"/>    
+    <input id="place" placeholder="Ort" class="input"/>
+</div>
+</div> 
+    <div>
+      <button id="submit-button" class="btn" style="background-color:#dd3545">Absenden</button>
+    </div>
+        </form>
+        </div>
     </div>
     <div aria-hidden="true" class="spacer"></div>
     <script src="/js/bootstrap.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/erezept.js"></script>
 
     </body>
     <?php include "footer.php" ?>
