@@ -1,15 +1,7 @@
-const input = document.getElementById("upload");
+const input = document.querySelector("input");
 const preview = document.querySelector(".preview");
-const submitBtn = document.getElementById("submit-button")
-const privacy = document.getElementById("privacy");
-const delivery = document.getElementById("delivery");
-const firstname = document.getElementById("firstname");
-const lastname = document.getElementById("lastname");
-const street = document.getElementById("street");
-const place = document.getElementById("place");
 
-privacy === "true" && ((name.value !== "" && lastname.value !== "") && ((delivery === true && adress.value !== "" && adress.value !== "") || delivery === false)) ? submitBtn.style.opacity = 100 : submitBtn.style.opacity = 0;
-input.style.opacity = 0;
+input.style.opacity = 0
 
 input.addEventListener("change", updateImageDisplay);
 
@@ -26,7 +18,6 @@ function updateImageDisplay() {
       para.textContent = "No files currently selected for upload";
       preview.appendChild(para);
     } else {
-        console.log(" ist undefined")
       const list = document.createElement("ol");
       preview.appendChild(list);
   
