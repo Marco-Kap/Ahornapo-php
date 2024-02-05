@@ -27,7 +27,7 @@
             <div class="card">
         <form class="px-4 m-4">
             <div class="row">
-            <label class="col align-self-center" style="background-color:#dd3545" for="image_upload">Rezepte hochladen</label>
+            <label class="col align-self-center py-4 rounded" style="background-color:#dd3545" for="image_upload">Rezepte hochladen</label>
             <input type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
             </div>
             <div class="preview">
