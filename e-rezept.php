@@ -38,10 +38,10 @@
     Ich möchte meine Bestellung liefern lassen
   </label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-  <label class="form-check-label" for="flexCheckChecked">
-    Ich habe die Datenschutzerlärung gelesen und stimme zu
+<div class="form-check row">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+  <label class="form-check-label align-self-start" for="flexCheckChecked">
+    Ich habe die Datenschutzerlärung gelesen
   </label>
 </div>
     <div>
