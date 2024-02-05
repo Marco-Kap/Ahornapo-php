@@ -27,12 +27,23 @@
             <div class="card">
         <form>
             <div class="row">
-            <label class="col primary align-self-center" for="image_upload">Rezepte hochladen</label>
+            <label class="col align-self-center" style="background-color:#dd3545" for="image_upload">Rezepte hochladen</label>
             <input type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
             </div>
             <div class="preview">
     </div>
-
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    Checked checkbox
+  </label>
+</div>
     <div>
       <button id="submit-button" class="btn" style="background-color:#dd3545">Absenden</button>
     </div>
