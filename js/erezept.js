@@ -9,8 +9,11 @@ const lastName = document.getElementById("last-name");
 const adress = document.getElementById("adress");
 const street = document.getElementById("street");
 const place = document.getElementById("place");
+delivery.addEventListener("check", (e) => {
+    console.log(e)
+    console.log(delivery.value)
+} )
 
-delivery.checked === true ? adress.style.opacity = "100%" : adress.style.opacity = 0
 input.style.opacity = 0
 submitBtn.style.opacity = "50%"
 
