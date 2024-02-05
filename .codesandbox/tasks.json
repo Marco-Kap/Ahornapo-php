@@ -6,10 +6,10 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "php -S localhost:9000",
+      "command": "php -S localhost:8000",
       "runAtStart": true,
       "preview": {
-        "port": 9000
+        "port": 8000
       }
     }
   }
