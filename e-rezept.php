@@ -32,6 +32,16 @@
             </div>
             <div class="preview" style="max-width: 20vw">
     </div>
+
+<div id="name" class="input-group my-4">
+  <input type="text" aria-label="Vorname" class="form-control" name="first-name" placeholder="Vorname" id="first-name">
+  <input type="text" aria-label="Nachname" class="form-control" name="last-name" placeholder="Nachname" id="last-name">
+</div>
+<div class="mt-4" aria-hidden></div>
+<div id="adress" class="input-group">
+  <input type="text" aria-label="Straße und Hausnummer" class="form-control" name="street" placeholder="Straße und Hausnummer" id="street">
+  <input type="text" aria-label="Lieferort" class="form-control" name="place" placeholder="Ort" id="place">
+</div>
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="delivery">
   <label class="form-check-label" for="delivery">
@@ -39,19 +49,10 @@
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="privacy">
+  <input class="form-check-input" type="checkbox" value="" id="privacy" required>
   <label class=" align-self-start" for="privacy">
     Ich habe die Datenschutzerlärung gelesen
   </label>
-</div>
-<div id="name" class="input-group">
-  <input type="text" aria-label="Vorname" class="form-control" placeholder="Vorname" id="first-name">
-  <input type="text" aria-label="Nachname" class="form-control" placeholder="Nachname" id="last-name">
-</div>
-<div class="mt-4" aria-hidden></div>
-<div id="adress" class="input-group">
-  <input type="text" aria-label="Straße und Hausnummer" class="form-control" placeholder="Straße und Hausnummer" id="street">
-  <input type="text" aria-label="Lieferort" class="form-control" placeholder="Ort" id="place">
 </div>
     <div>
       <button id="submit-button" class="btn mt-2" style="background-color:#dd3545">Absenden</button>

@@ -112,6 +112,9 @@ footer {
   height: 100px;
   padding-right: 30px;
 }
+.required {
+  border-style: 1px solid red;
+}
 
 #map {
   height: 180px;
