@@ -1,4 +1,3 @@
-console.log("hallo");
 const input = document.querySelector("input");
 const preview = document.querySelector(".preview");
 const submitBtn = document.getElementById("submit-button");
@@ -10,31 +9,95 @@ const lastName = document.getElementById("last-name");
 const adress = document.getElementById("adress");
 const street = document.getElementById("street");
 const place = document.getElementById("place");
+const image = document.getElementById("image_upload");
+const test = document.getElementById("test");
+
+submitBtn.disabled = true;
+//encoder function for base64
+function bytesToBase64(bytes) {
+  const binString = String.fromCodePoint(...bytes);
+  return btoa(binString);
+}
+test.setAttribute(
+  "src",
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
+);
+const imageSrc = bytesToBase64(new TextEncoder().encode(input));
+
+//this already returns a base 64
+input.addEventListener("input", (e) => {
+  const p = document.createElement("img");
+  document.body.appendChild(p);
+  p.src = "data:image/png;base64, ";
+  console.log(e);
+  console.log(bytesToBase64(new TextEncoder().encode(image)));
+});
+
+//hides streets and places if not checked
+delivery.addEventListener("click", (e) => {
+  if (e.target.checked === true && street.value === "") {
+    street.classList.remove("hidden");
+  } else {
+    street.classList.add("hidden");
+  }
+});
 
 delivery.addEventListener("click", (e) => {
-  console.log(delivery.checked);
-  console.log(e);
-
-  if (delivery.checked === true && street.value === "") {
-    street.classList.add("required");
+  if (e.target.checked === true && place.value === "") {
+    place.classList.remove("hidden");
   } else {
-    street.classList.add("required");
+    place.classList.add("hidden");
   }
-  if (delivery.checked === true && place.value === "") {
-    place.classList.add("required");
+});
+
+//final check if conditions are met
+//eventlistners for privacy name and firstName
+lastName.addEventListener("keydown", (e) => {
+  if (
+    privacy.checked === true &&
+    e.target.value !== "" &&
+    firstName.value !== ""
+  ) {
+    submitBtn.style.opacity = "100%";
+    submitBtn.disabled = false;
   } else {
-    place.classList.add("required");
+    submitBtn.style.opacity = "50%";
+    submitBtn.disabled = true;
+  }
+});
+
+firstName.addEventListener("keydown", (e) => {
+  if (
+    e.target.value !== "" &&
+    privacy.checked === true &&
+    lastName.value !== ""
+  ) {
+    submitBtn.style.opacity = "100%";
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.style.opacity = "50%";
+    submitBtn.disabled = true;
   }
 });
 
 privacy.addEventListener("click", (e) => {
-  console.log("privacy" + privacy.checked);
+  if (
+    e.target.checked === true &&
+    firstName.value !== "" &&
+    lastName.value !== ""
+  ) {
+    submitBtn.style.opacity = "100%";
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.style.opacity = "50%";
+    submitBtn.disabled = true;
+  }
 });
 
+//default input field is hidden
 input.style.opacity = 0;
+//submit button is initially transparent
 submitBtn.style.opacity = "50%";
-
-console.log("wird geliefert" + delivery.checked);
 
 input.addEventListener("change", updateImageDisplay);
 
@@ -43,8 +106,9 @@ function updateImageDisplay() {
   //     console.log("hallo")
   //   preview.removeChild(preview.firstChild);
   // }
-  console.log("hallo" + input.files);
+
   const curFiles = input.files;
+  console.log(bytesToBase64(new TextEncoder().encode(input.files[0])));
   if (curFiles === 0) {
     console.log("curl.lengt ist kleiner 0");
     const para = document.createElement("p");

@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><img  id="test" src=""/>
         <div aria-hidden="true" class="spacer"></div>
     <div class="card text-center container p-4">
         <p>Sie können bereits jetzt bei uns ein E-Rezept mit Ihrer elektronischen Gesundheitskarte, einem Papierausdruck mit QR-Code oder der E-Rezept App 
@@ -25,10 +25,10 @@
             <b><p>Außerdem haben Sie die Möglichkeit Ihr Rezept zu fotografieren oder zu scannen und direkt bei uns hochzuladen</p></b>
 
             <div class="card">
-        <form class="px-4 m-2" method="get" name="form" action="submit.php">
+        <form class="px-4 m-2" method="post" enctype="multipart/form-data" name="form" action="">
             <div class="row">
-            <label class="col align-self-center py-2 rounded" style="background-color:#dd3545" for="image_upload">Rezepte hochladen</label>
-            <input type="file" id="image_upload" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+            <label class="col align-self-center py-2 rounded" style="background-color:#dd3545" for="prescription">Rezepte hochladen</label>
+            <input type="file" id="prescription" name="prescription" accept=".jpg, .jpeg, .png" multiple>
             </div>
             <div class="preview" style="max-width: 20vw">
     </div>
@@ -39,8 +39,8 @@
 </div>
 <div class="mt-4" aria-hidden></div>
 <div id="adress" class="input-group">
-  <input type="text" aria-label="Straße und Hausnummer" class="form-control" name="street" placeholder="Straße und Hausnummer" id="street">
-  <input type="text" aria-label="Lieferort" class="form-control" name="place" placeholder="Ort" id="place">
+  <input type="text" aria-label="Straße und Hausnummer" class="form-control hidden" name="street" placeholder="Straße und Hausnummer" id="street">
+  <input type="text" aria-label="Lieferort" class="form-control hidden" name="place" placeholder="Ort" id="place">
 </div>
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="delivery">
